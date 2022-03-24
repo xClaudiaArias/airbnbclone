@@ -1,0 +1,5 @@
+{
+    "icons": [
+        { "src": "./images/icon-airbnb.svg", "type": "image/svg", "sizes": "400x400" }
+    ]
+}
