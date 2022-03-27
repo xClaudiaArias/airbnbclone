@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+#first-container {
+    background-color: black;
+}
+
+#main-nav {
+    color: white;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+#logo-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+#logo-img {
+    width: 42px;
+    height: 42px;
+    /* margin-top: 25px; */
+}
+
+#main-nav ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+#main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+#main-nav ul li a:hover::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: white;
+    top: 125%;
+    width: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: white;
+    top: 125%;
+    width: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
+
+#nav-right-list {
+    display: flex;
+}
+
+#nav-right-list a {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#globe-icon {
+    padding: 10px;
+    width: 36px;
+    height: 36px;
+}
+
+#globe-icon:hover {
+    background-color: #262626;
+    border-radius: 50px;
+}
+
+
+#nav-right-list {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-right-list div {
+    width: 77px;
+    height: 42px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    padding: 0 8px; 
+}
+
+#menu-icon {
+    width: 14px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+#profile-icon {
+    width: 30px;
+    height: 30px;
+}

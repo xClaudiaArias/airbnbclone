@@ -9,26 +9,30 @@
     <link rel="shortcut icon" href="./images/icon-airbnb.svg" type="image/x-icon" width="160px" height="160px">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Manrope:wght@200;400;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="first-container">
         <nav id="main-nav">
-            <div>
-                <p><span><img src="./images/icon-airbnb.svg" alt="airbnb icon"></span>airbnb</p>
+            <div id="logo-container">
+                <img id="logo-img" src="./images/logo-white.svg" alt="airbnb icon">
+                <p id="logo">airbnb</p>
             </div>
     
             <ul>
-                <li><a href="https://www.airbnb.com/">Places to stay</a></li>
-                <li><a href="https://www.airbnb.com/">Experiences</a></li>
-                <li><a href="https://www.airbnb.com/s/experiences/online">Online Experiences</a></li>
+                <li><a class="nav-item active" href="#">Places to stay</a></li>
+                <li><a class="nav-item" href="#">Experiences</a></li>
+                <li><a class="nav-item" href="#">Online Experiences</a></li>
             </ul>
     
             <div id="nav-right-list">
                 <a href="">Become a Host</a>
-                <img src="./images/globe-icon.png" alt="Globe icon">
+                <img id="globe-icon" src="./images/globe-icon.svg" alt="Globe icon">
                 <div>
-                    <img src="./images/menu-icon.svg" alt="Menu icon">
-                    <img src="./images/profile-icon.svg" alt="Profile icon">
+                    <img id="menu-icon" src="./images/menu-icon.svg" alt="Menu icon">
+                    <img id="profile-icon" src="./images/profile-icon.svg" alt="Profile icon">
                 </div>
             </div>
         </nav>
@@ -557,6 +561,7 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
 </html>
