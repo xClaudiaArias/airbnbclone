@@ -217,8 +217,8 @@
     width: 100px !important;
 }
 
-.bottom-input {
-    width: 200px !important;
+#second-nav ul #top-link-li .top-link-first input[type="text"]{
+    width: 180px !important;
 }
 
 #help-ref {
