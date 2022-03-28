@@ -7,6 +7,8 @@
 
 #first-container {
     background-color: black;
+    width: 100vw;
+    height: 900px;
 }
 
 #main-nav {
@@ -35,7 +37,6 @@
 #logo-img {
     width: 42px;
     height: 42px;
-    /* margin-top: 25px; */
 }
 
 #main-nav ul {
@@ -130,4 +131,122 @@
 #profile-icon {
     width: 30px;
     height: 30px;
+}
+
+/* ----------- second nav  */
+
+#second-nav {
+    background-color: white;
+    width: 800px;
+    height: 66px;
+    margin: 0 auto;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#second-nav-search {
+    background-color: #FE395C;
+}
+
+#second-nav-btn-div {
+    width: 50px;
+    height: 50px;
+    background-color: #FE395C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-nav-btn-div img {
+    width: 18px;
+    height: 18px;
+}
+
+#second-nav ul {
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-nav ul li{
+    list-style-type: none;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+.top-link {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+#second-nav ul li div input[type="text"]{
+    border: none;
+    width: 170px;
+}
+
+#second-nav ul li div input[type="text"]::placeholder{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#top-link-li{
+    width: 220px;
+    padding-right: 100px;
+}
+
+#second-nav ul li::after{
+    content: "";
+    position: absolute;
+    height: 35px;
+    background: rgb(207, 207, 207);
+    top: 12.7%;
+    width: 1px;
+    left: 86%;
+    transform: translateX(-50%);
+}
+
+#second-nav ul li div input[type="text"]{
+    width: 100px !important;
+}
+
+.bottom-input {
+    width: 200px !important;
+}
+
+#help-ref {
+    margin: 80px auto;
+    width: 1120px;
+    height: 360px;
+    background-color: #FE395C;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#help-ref span {
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    padding-top: 120px;
+}
+
+#help-ref button {
+    background-color: #FE395C;
+    border: white 1px solid;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    margin-top: 25px;
 }
