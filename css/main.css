@@ -8,7 +8,7 @@
 #first-container {
     background-color: black;
     width: 100vw;
-    height: 900px;
+    height: 1000px;
 }
 
 #main-nav {
@@ -250,3 +250,118 @@
     font-weight: 400;
     margin-top: 25px;
 }
+
+/* curiosity section */
+
+main {
+    width: 100vw;
+}
+
+#curiosity {
+    margin: 0 auto;
+    width: 1280px;
+    height: 568px;
+    background-image: url("/images/curiosity.jpg");
+    background-size: 100% 100%;
+    border-radius: 15px;
+    position: relative;
+    top: -310px;
+}
+
+#curiosity p {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 340px;
+}
+
+#curiosity button {
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 150px;
+    height: 56px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+#curiosity button span {
+    font-size: 18px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(rgb(124, 0, 169), rgb(238, 23, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* INSPIRATION  */
+
+#inspiration {
+    position: relative;
+    top: -200px;
+    width: 1280px;
+    left: 80px;
+}
+
+#inspiration h2{
+    font-size: 42px;
+    padding-bottom: 40px;
+
+}
+
+#inspiration-cards  {
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+#inspiration-cards .card {
+    width: 300px;
+    height: 400px;
+}
+
+#inspiration-cards .card img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#inspiration-cards .card div {
+    width: 300px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -10px;
+    padding: 30px;
+}
+
+#scr {
+    background-color: #D93B31;
+}
+
+#atl {
+    background-color: #BD196D;
+}
+
+#mont {
+    background-color: #DE3251;
+}
+
+#ocea {
+    background-color: #CC2D4A;
+}
+
+#inspiration-cards .card div h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+#inspiration-cards .card div p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
