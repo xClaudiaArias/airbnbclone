@@ -365,3 +365,57 @@ main {
     padding-top: 10px;
 }
 
+/* DISCOVER SECTION  */
+
+#discover {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+#discover h2 {
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+#disc-cont {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+#disc-cont #disc-exp, #disc-cont #disc-exp-online {
+    width: 630px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#disc-exp {
+    background: url('/images/discover2.jpg');
+    background-size: cover;
+}
+
+#disc-exp-online {
+    background-color: rgba(0,0,0,0.5);
+    background: url('/images/discover3.jpg');
+    background-size: 540px 658px;
+}
+
+#disc-cont #disc-exp h3, 
+#disc-cont #disc-exp-online h3{
+    color: white;
+    font-size: 53px;
+    width: 500px;
+    padding: 80px 80px 20px;
+}
+
+#disc-cont #disc-exp button, 
+#disc-cont #disc-exp-online button{
+    background-color: #EBEBEB;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 80px;
+}
