@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+    color: #222222;
 }
 
 #first-container {
@@ -32,6 +33,7 @@
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    color: white;
 }
 
 #logo-img {
@@ -418,4 +420,33 @@ main {
     font-weight: 400;
     font-size: 16px;
     margin-left: 80px;
+}
+
+#giftcards {
+    width: 1280px;
+    margin: 80px auto;
+    display: flex;
+}
+
+#giftcards #gift-call h3{
+    font-size: 53px;
+    padding: 60px 0 30px;
+    line-height: 1;
+    color: #222222;
+}
+
+#giftcards #gift-call button{
+    border: none;
+    border-radius: 8px;
+    width: 133px;
+    height: 48px;
+    background-color: #222222;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+#giftcards img{
+    width: 800px;
+    height: 400px;
+    object-fit: contain;
 }
