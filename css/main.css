@@ -445,8 +445,37 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+
 #giftcards img{
     width: 800px;
     height: 400px;
     object-fit: contain;
+}
+
+
+#hosting {
+    width: 1280px;
+    height: 640px;
+    background: url('/images/hosting.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+#hosting h3 {
+    color: white;
+    font-size: 95px;
+    width: 438px;
+    padding: 80px;
+    line-height: 1;
+}
+
+#hosting button{
+    background-color: #EBEBEB;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 80px;
 }
