@@ -639,4 +639,38 @@ footer {
     text-decoration: none;
 }
 
+#right-bottom-footer {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
 
+#right-bottom-footer #language {
+    width: 160px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right-bottom-footer #language a {
+    font-weight: 400;
+}
+
+#dollar-sign {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+#wrld-icon {
+    margin-top: 2px;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}

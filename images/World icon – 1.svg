@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="18" viewBox="0 0 9 18">
+  <defs>
+    <clipPath id="clip-World_icon_1">
+      <rect width="9" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="World_icon_1" data-name="World icon – 1" clip-path="url(#clip-World_icon_1)">
+    <rect width="9" height="18" fill="#fff"/>
+    <path id="Icon_zocial-facebook" data-name="Icon zocial-facebook" d="M13.257,9.666V6.229h2.577V4.5a4.722,4.722,0,0,1,1.129-3.186A3.484,3.484,0,0,1,19.7,0h2.559V3.438H19.7a.558.558,0,0,0-.451.3,1.272,1.272,0,0,0-.2.729V6.228h3.211V9.665H19.045V18H15.833V9.666Z" transform="translate(-13.257)" fill="#222"/>
+  </g>
+</svg>
