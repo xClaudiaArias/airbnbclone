@@ -600,3 +600,43 @@ footer {
 #main-footer #about ul li a:hover {
     text-decoration: underline;
 }
+
+/* bottom footer  */
+
+#bottom-footer {
+    margin: 0 auto;
+    width: 1280px;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom-footer ul {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+#bottom-footer ul li {
+    list-style-type: none;
+}
+
+#bottom-footer ul li:nth-child(2):before,
+#bottom-footer ul li:nth-child(3):before,
+#bottom-footer ul li:nth-child(4):before { 
+    content: "•";
+    font-size: 6pt; 
+    padding-right: 5px;
+}
+
+#bottom-footer ul li a:hover { 
+    text-decoration: underline;
+}
+
+#bottom-footer ul li a { 
+    text-decoration: none;
+}
+
+
