@@ -225,7 +225,7 @@
 
 #help-ref {
     margin: 80px auto;
-    width: 1120px;
+    width: 1280px;
     height: 360px;
     background-color: #FE395C;
     color: white;
@@ -523,7 +523,80 @@ main {
     padding-bottom: 18px;
 }
 
+.arts-culture, .getaway-container {
+    width: 1140px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.getaway-container {
-    display: none;
+.get-cities {
+    padding: 10px 0;
+}
+
+.get-cities p {
+    font-size: 14px;
+}
+
+.get-cities :nth-child(1){
+    color: #222222;
+}
+
+.get-cities :nth-child(2){
+    color: #838383;
+}
+
+/* FOOTER  */
+
+footer {
+    width: 100vw;
+    background-color: #F7F7F7;
+}
+
+#main-footer {
+    width: 100vw;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-footer #support,
+#main-footer #community,
+#main-footer #footer-hosting,
+#main-footer #about {
+    margin-right: 100px;
+}
+
+#main-footer #support h3,
+#main-footer #community h3,
+#main-footer #footer-hosting h3,
+#main-footer #about h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#main-footer #support ul li,
+#main-footer #community ul li,
+#main-footer #footer-hosting ul li,
+#main-footer #about ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+#main-footer #support ul li a,
+#main-footer #community ul li a,
+#main-footer #footer-hosting ul li a,
+#main-footer #about ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #464646;
+}
+
+#main-footer #support ul li a:hover,
+#main-footer #community ul li a:hover,
+#main-footer #footer-hosting ul li a:hover,
+#main-footer #about ul li a:hover {
+    text-decoration: underline;
 }
