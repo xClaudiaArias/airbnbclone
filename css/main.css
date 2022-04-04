@@ -479,3 +479,51 @@ main {
     font-size: 16px;
     margin-left: 80px;
 }
+
+/* getaways  */
+
+#getaways {
+    width: 1280px;
+    margin: 80px auto 0;
+}
+
+#getaways h2 {
+    padding: 20px 0;
+}
+
+#getaways ul {
+    width: inherit;
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+#getaways ul li{
+    padding: 10px 15px;
+    list-style-type: none;
+    margin-left: -15px;
+    margin-right: 20px;
+}
+
+#getaways ul li:hover{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+/* this is on click */
+.active-link {
+    border-bottom: 2px solid #222222;
+}
+
+#getaways ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    padding-bottom: 18px;
+}
+
+
+.getaway-container {
+    display: none;
+}
