@@ -15,59 +15,71 @@
 </head>
 <body>
     <div id="first-container">
-        <nav id="main-nav">
-            <div id="logo-container">
-                <img id="logo-img" src="./images/logo-white.svg" alt="airbnb icon">
-                <p id="logo">airbnb</p>
-            </div>
-    
-            <ul>
-                <li><a class="nav-item active" href="#">Places to stay</a></li>
-                <li><a class="nav-item" href="#">Experiences</a></li>
-                <li><a class="nav-item" href="#">Online Experiences</a></li>
-            </ul>
-    
-            <div id="nav-right-list">
-                <a href="">Become a Host</a>
-                <img id="globe-icon" src="./images/globe-icon.svg" alt="Globe icon">
-                <div>
-                    <img id="menu-icon" src="./images/menu-icon.svg" alt="Menu icon">
-                    <img id="profile-icon" src="./images/profile-icon.svg" alt="Profile icon">
+        <div id="nav-container">
+            <nav id="main-nav">
+                <div id="logo-container">
+                    <img id="logo-img" src="./images/logo-white.svg" alt="airbnb icon">
+                    <p id="logo">airbnb</p>
+                </div>
+        
+                <form action="">
+                    <div id="input">
+                        <input type="text" name="search" id="search" placeholder="Start your search"/>
+                    </div>
+                    <div id="search">
+                        <span id="search-btn"><img src="./images/magnifying-glass.svg" alt="search button"></span>                        
+                    </div>
+                </form>
+
+                <ul id="ul-navs">
+                    <li><a class="nav-item active" href="#">Places to stay</a></li>
+                    <li><a class="nav-item" href="#">Experiences</a></li>
+                    <li><a class="nav-item" href="#">Online Experiences</a></li>
+                </ul>
+        
+                <div id="nav-right-list">
+                    <a href="">Become a Host</a>
+                    <img id="globe-icon" src="./images/globe-icon.svg" alt="Globe icon">
+                    <div>
+                        <img id="menu-icon" src="./images/menu-icon.svg" alt="Menu icon">
+                        <img id="profile-icon" src="./images/profile-icon.svg" alt="Profile icon">
+                    </div>
+                </div>
+            </nav>
+        
+            <div id="second-nav">
+                <ul>
+                    <li id="top-link-li">
+                        <div class="top-link-first">
+                            <a class="top-link" href="#">Location</a>
+                            <input type="text" class="bottom-input" href="#" placeholder="Where are you going?">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a class="top-link" href="#">Check In</a>
+                            <input type="text" class="bottom-input" href="#" placeholder="Add Dates">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a class="top-link" href="#">Check Out</a>
+                            <input type="text" class="bottom-input" href="#" placeholder="Add Dates">
+                        </div>
+                    </li>
+                    <li id="guests-a">
+                        <div>
+                            <a class="top-link" href="#">Guests</a>
+                            <input type="text" class="bottom-input" href="#" placeholder="Add Guests">
+                        </div>
+                    </li>
+                </ul>
+                <div id="second-nav-btn-div">
+                    <img src="./images/magnifying-glass.svg" alt="Magnifying glass icon">
                 </div>
             </div>
-        </nav>
-    
-        <div id="second-nav">
-            <ul>
-                <li id="top-link-li">
-                    <div class="top-link-first">
-                        <a class="top-link" href="#">Location</a>
-                        <input type="text" class="bottom-input" href="#" placeholder="Where are you going?">
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a class="top-link" href="#">Check In</a>
-                        <input type="text" class="bottom-input" href="#" placeholder="Add Dates">
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a class="top-link" href="#">Check Out</a>
-                        <input type="text" class="bottom-input" href="#" placeholder="Add Dates">
-                    </div>
-                </li>
-                <li id="guests-a">
-                    <div>
-                        <a class="top-link" href="#">Guests</a>
-                        <input type="text" class="bottom-input" href="#" placeholder="Add Guests">
-                    </div>
-                </li>
-            </ul>
-            <div id="second-nav-btn-div">
-                <img src="./images/magnifying-glass.svg" alt="Magnifying glass icon">
-            </div>
         </div>
+        
 
         <div id="help-ref">
             <span>Help house 100,000 refugees fleeing</span>

@@ -4,12 +4,19 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     color: #222222;
+    z-index: 0;
 }
 
 #first-container {
     background-color: black;
     width: 100vw;
     height: 1000px;
+}
+
+#nav-container {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
 }
 
 #main-nav {
@@ -39,6 +46,48 @@
 #logo-img {
     width: 42px;
     height: 42px;
+}
+
+form {
+    width: 300px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.05);
+    border: 1px solid rgb(210, 210, 210);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+form input[type="text"] {
+    border: none;
+}
+
+form input[type="text"]::placeholder {
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    color:#222222;
+    padding-left: 15px;
+}
+
+form span {
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    background-color: #fe395c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form span img {
+    width: 12px;
+    height: 12px;
 }
 
 #main-nav ul {
@@ -122,6 +171,7 @@
     align-items: center;
     border-radius: 40px;
     padding: 0 8px; 
+    border: 1px solid #b3b3b3;
 }
 
 #menu-icon {
@@ -139,7 +189,7 @@
 
 #second-nav {
     background-color: white;
-    width: 800px;
+    width: 850px;
     height: 66px;
     margin: 0 auto;
     border-radius: 70px;
@@ -224,13 +274,15 @@
 }
 
 #help-ref {
-    margin: 80px auto;
+    margin: 0 auto;
     width: 1280px;
     height: 360px;
     background-color: #FE395C;
     color: white;
     border-radius: 12px;
     text-align: center;
+    position: relative;
+    top: 300px;
 }
 
 #help-ref span {
